@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "676668507688",
+    "project_id": "your-games-alpha",
+    "storage_bucket": "your-games-alpha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676668507688:android:332a574ca5a019ef5a171d",
+        "android_client_info": {
+          "package_name": "com.example.finalprojectapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676668507688-jrk1knng6nlpeq5ieo7crua4qs5dpl6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5APdvpqOmvRtfdtJNMA9JCFkvUimbnkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676668507688-jrk1knng6nlpeq5ieo7crua4qs5dpl6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
