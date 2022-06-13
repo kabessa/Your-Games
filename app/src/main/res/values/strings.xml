@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ExemploToolBar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Regiões do Brasil</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Ajuda</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Região Centro-Oeste</string>
+    <string name="menu_slideshow">Região Norte</string>
+    <string name="menu_nordeste">Região Nordeste</string>
+    <string name="menu_aleatorio">Região Sudeste</string>
+    <string name="menu_sul">Região Sul</string>
+
+</resources>

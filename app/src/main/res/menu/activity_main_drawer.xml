@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_centroeste"
+            android:icon="@drawable/ic_centroeste"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_norte"
+            android:icon="@drawable/ic_norte"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_nordeste"
+            android:icon="@drawable/ic_nordeste"
+            android:title="@string/menu_nordeste" />
+        <item
+            android:id="@+id/nav_sudeste"
+            android:icon="@drawable/ic_sudeste"
+            android:title="@string/menu_aleatorio" />
+
+        <item
+            android:id="@+id/nav_sul"
+            android:icon="@drawable/ic_sul"
+            android:title="@string/menu_sul" />
+    </group>
+</menu>
