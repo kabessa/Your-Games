@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="@dimen/vertical"
+    android:paddingHorizontal="@dimen/horizontal"
+    android:background="@color/black"
+    tools:context=".OpeningActivity">
+
+    <ImageView
+        android:id="@+id/top_detail"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/top_detail"/>
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="45dp"
+        app:layout_constraintTop_toBottomOf="@id/top_detail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottom_detail"
+        android:background="@drawable/logo_image"/>
+
+    <ImageView
+        android:id="@+id/your_games"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo_image"
+        android:background="@drawable/your_games"/>
+
+    <ImageView
+        android:id="@+id/bottom_detail"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/bottom_detail"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
