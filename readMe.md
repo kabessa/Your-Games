@@ -1,0 +1,1 @@
+Nesse projeto vamos criar um aplicativo para android, o qual tem com finalidade 
